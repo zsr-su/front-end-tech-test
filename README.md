@@ -10,7 +10,7 @@ Building layouts provided by designer mockups is a big part of our day to day at
 
 At SIDEARM Sports, we use Figma both to prototype ideas & create high-fidelity UI designs.
 
-Please find below the Figma file for this coding challenge. [https://www.figma.com/file/nsA0rvuI8PxoIgsikJcj57/Candidate-mock](https://www.figma.com/file/nsA0rvuI8PxoIgsikJcj57/Candidate-mock) (view this version to see the styles). The font being used is [Montserrat](https://fonts.google.com/specimen/Montserrat)
+Please find below the Figma file for this coding challenge. [https://www.figma.com/file/nsA0rvuI8PxoIgsikJcj57/Candidate-mock](https://www.figma.com/file/nsA0rvuI8PxoIgsikJcj57/Candidate-mock). The font being used is [Montserrat](https://fonts.google.com/specimen/Montserrat)
 
 ## Assumptions
 
