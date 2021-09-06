@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./site/site.css">
+    <link rel="stylesheet" href="./site/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="responsive-menu">
+                <div>
+                    <a href="#" id="menu-toggle"><span><i class="fas fa-bars fa-2x burger-menu"></i></span></i></a>
+                </div>
+                <div class="responsive-logo">
+                    <i class="fas fa-image"></i>
+                </div>
+            </div>
+            <div class="main-nav">
+                <div class="logo">
+                    <i class="fas fa-image"></i>
+                </div>
+                <ul class="nav-links-desktop">
+                    <li><a href="#">Ipsum</a></li>
+                    <li><a href="#">Ipsum</a></li>
+                    <li><a href="#">Ipsum</a></li>
+                    <li><a href="#">Ipsum</a></li>
+                </ul>
+            </div>
+            <div class="user-container">
+                <div class="user-subnav">
+                    <button id="subnav-btn"><span class="circle-bg"><i class="fas fa-image icon"></i></span><span class="user-name">Ipsum</span><i class="fas fa-sort-down"></i></button>
+                    <div class="user-subnav-content" id="dropdown-menu">
+                        <a href="#"><span class="subnav-item-logo"><i class="far fa-user"></i></span>Ipsum Lorem</a>
+                        <a href="#"><span class="subnav-item-logo"><i class="fas fa-shopping-cart"></i></span>Ipsum Lorem</a>
+                    </div>
+                </div>
+                <div class="news-btn"><i class="far fa-newspaper"></i><span class="news-text">Ipsum Lorem</span></div>
+            </div>
+        </nav>
+        <div>
+            <ul class="nav-links-tablet" id="responsive-subnav">
+                <li><a href="#">Ipsum</a></li>
+                <li><a href="#">Ipsum</a></li>
+                <li><a href="#">Ipsum</a></li>
+                <li><a href="#">Ipsum</a></li>
+            </ul>
+        </div>
+        <script>
+            $( "#subnav-btn" ).click(function(event) {
+              event.preventDefault();
+              $( "#dropdown-menu" ).toggleClass('show-subnav');
+            })
+            $("#menu-toggle").click(function(event){
+                event.preventDefault();
+                $("#responsive-subnav").toggleClass('show-subnav-links')
+            })
+            </script>
+    </header>
+    <div class="tile-container">
+        <div class="tile-wrapper">
+            <div class="tile-header">
+                <h2>Officia ut</h2>
+                <a href="#">Ipsum Lorem</a>
+            </div>
+            <div class="tile-item-container">
+                <div class="tile-item">
+                    <img src="assets/mountain-1.png">
+                    <p>Adipisicing unde vel so dolore,<br>consequatur</p>
+                    <a href="#"><i class="fas fa-link"></i> Ipsum Lorem</a>
+                </div>
+                <div class="tile-item">
+                    <img src="assets/mountain-1.png">
+                    <p>Adipisicing unde vel so dolore,<br>consequatur</p>
+                    <a href="#"><i class="fas fa-link"></i> Ipsum Lorem</a>
+                </div>
+                <div class="tile-item">
+                    <img src="assets/mountain-1.png">
+                    <p>Adipisicing unde vel so dolore,<br>consequatur</p>
+                    <a href="#"><i class="fas fa-link"></i> Ipsum Lorem</a>
+                </div>
+                <div class="tile-item">
+                    <img src="assets/mountain-1.png">
+                    <p>Adipisicing unde vel so dolore,<br>consequatur</p>
+                    <a href="#"><i class="fas fa-link"></i> Ipsum Lorem</a>
+                </div>
+                <div class="tile-item">
+                    <img src="assets/mountain-1.png">
+                    <p>Adipisicing unde vel so dolore,<br>consequatur</p>
+                    <a href="#"><i class="fas fa-link"></i> Ipsum Lorem</a>
+                </div>
+                <div class="tile-item">
+                    <img src="assets/mountain-1.png">
+                    <p>Adipisicing unde vel so dolore,<br>consequatur</p>
+                    <a href="#"><i class="fas fa-link"></i> Ipsum Lorem</a>
+                </div>
+                <div class="tile-item">
+                    <img src="assets/mountain-1.png">
+                    <p>Adipisicing unde vel so dolore,<br>consequatur</p>
+                    <a href="#"><i class="fas fa-link"></i> Ipsum Lorem</a>
+                </div>
+                <div class="tile-item">
+                    <img src="assets/mountain-1.png">
+                    <p>Adipisicing unde vel so dolore,<br>consequatur</p>
+                    <a href="#"><i class="fas fa-link"></i> Ipsum Lorem</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
