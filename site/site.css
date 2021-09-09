@@ -177,32 +177,28 @@ ul{
 .tile-wrapper{
     width:85%;
     background-color:#fff;
-    padding:16px;
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:column;
-    margin:auto;
+    margin:0 auto;
 }
 .tile-header{
     display:flex;
     justify-content:space-between;
-    padding:16px 0;
+    padding:24px;
 }
 .tile-item-container{
     display: flex;
     flex-wrap: wrap;
+    width:100%;
+    margin-bottom:100px;
 }
 .tile-item{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
-    margin: 6px;
-    padding: 16px;
-    flex: 1 0 18%;
+    margin: 1%;
+    width:23%;
     background-color: #f8fbfd;
     transition:.2s;
+}
+.tile-item-inner{
+    padding:16px 0 32px 0;
 }
 .tile-item:hover{
     background-color:#f1f1f1;
@@ -237,7 +233,6 @@ ul{
 }
 /* Main Navigation Styling for Tablet */
 nav{
-    width:90%;
     align-items:center;
     background-color: #021e41;
     padding:16px;
@@ -250,7 +245,7 @@ nav{
 .responsive-menu{
     display:flex;
     flex-direction: row;
-    width: 70%;
+    width: 30%;
     align-items: center;
     justify-content: flex-start;
 }
@@ -303,6 +298,11 @@ nav{
     text-decoration:none;
     color:inherit;
 }
+
+.user-container{
+    width:70%;
+}
+
 .user-subnav-content{
     padding-top:25px;
 }
@@ -316,13 +316,11 @@ nav{
 /* Styling for News Button in Responsive Navigation */
 .news-btn{
     background-color:transparent;
-    position:relative
-}
-.tile-item-container{
-    justify-content: center;
+    position:relative;
+    padding:0;
 }
 .tile-item{
-    flex:0 1 25%;
+    width: 31%;
 }
 .tile-item a{
     padding:8px;
@@ -335,10 +333,7 @@ nav{
         display:none;
     }
     #subnav-btn{padding:0;}
-    .tile-item-container{
-        justify-content: center;
-    }
     .tile-item{
-        flex:0 0 90%;
+        width:100%;
     }
 }
